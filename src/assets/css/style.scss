@@ -1,0 +1,183 @@
+// css reset
+
+html {
+  font-size: 14px;
+}
+body {
+  color: #797979;
+  font-family: "Microsoft Yahei","sans-serif";
+}
+body,
+ul,
+ol,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration-line: none;
+}
+ul {
+  list-style: none;
+}
+// color
+$colors: (
+  primary: #797979,
+  grey: #f9f9f9,
+  grey1: #cbcbcb,
+  white: #fff,
+  black: #000,
+  green: #094,
+  lightgreen: #64be8c,
+);
+
+@each $colorKey, $color in $colors {
+  .text-#{$colorKey} {
+    color: $color;
+  }
+  .bg-#{$colorKey} {
+    background-color: $color
+  }
+}
+// text align
+@each $var in (left, center, right) {
+  .text-#{$var} {
+    text-align: $var;
+  }
+}
+// font size
+$base-font-size: 1rem;
+$font-sizes: (
+  xm: 0.8571,
+  md: 1,
+  lg: 1.1429,
+  xl: 2.1429,
+  18: 1.2857,
+  24: 1.7143,
+);
+
+@each $sizeKey, $size in $font-sizes {
+  .fs-#{$sizeKey} {
+    font-size: $size * $base-font-size;
+  }
+}
+
+// flex
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+);
+@each $key, $value in $flex-jc {
+  .jc-#{$key} {
+    justify-content: $value;
+  }
+}
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch,
+);
+@each $key, $value in $flex-ai {
+  .ai-#{$key} {
+    align-items: $value;
+  }
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+// spacing
+$spacing-types: (
+  m: margin,
+  p: padding,
+);
+$spacing-directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left,
+);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  5: 3,
+);
+// mt-1 , pt-1
+@each $typeKey, $type in $spacing-types {
+  @each $directionKey, $direction in $spacing-directions {
+    @each $sizeKey, $size in $spacing-sizes {
+      .#{$typeKey}#{$directionKey}-#{$sizeKey} {
+        #{$type}-#{$direction}: $size * $spacing-base-size;
+      }
+    }
+  }
+}
+// m-1
+@each $typeKey, $type in $spacing-types {
+  @each $sizeKey, $size in $spacing-sizes {
+    .#{$typeKey}-#{$sizeKey} {
+      #{$type}: $size * $spacing-base-size;
+    }
+  }
+// mx-1, my-1
+  @each $sizeKey, $size in $spacing-sizes {
+    .#{$typeKey}x-#{$sizeKey} {
+      #{$type}-left: $size * $spacing-base-size;
+      #{$type}-right: $size * $spacing-base-size;
+    }
+    .#{$typeKey}y-#{$sizeKey} {
+      #{$type}-top: $size * $spacing-base-size;
+      #{$type}-bottom: $size * $spacing-base-size;
+    }
+  }
+}
+input {
+  border: 1px solid #bebebe;
+  background: #fff url(../img/input.png) repeat-x;
+}
+.btn {
+  border: 0;
+  padding: .7rem 3rem;
+  cursor: pointer;
+}
+// 居中
+.center {
+  margin: 0 auto;
+}
+
+.dp-b {
+  display: block;
+}
+
+.dp-ib {
+  display: inline-block;
+}
+
+.content-box {
+  width: 1000px;
+  margin: 40px auto 0;
+}
+.va {
+  vertical-align: middle;
+}
+.cp {
+  cursor: pointer;
+}

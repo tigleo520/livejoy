@@ -1,0 +1,272 @@
+[
+  {
+    "_id": "01",
+    "title": "客厅",
+    "category": "1",
+    "area": "25",
+    "view": "215",
+    "favorite": "135",
+    "price": "2552",
+    "total": "43223",
+    "content": "简单别致的卫生间设计，纯白色的瓷砖代培透明玻璃，马桶上的黑白画艺术最美，小空间亦能拥有大幸福",
+    "imgUrl": [
+      "/img/project_58.ad2f0c9a.gif",
+      "/img/project_23.f0726c71.gif",
+      "/img/project_24.4ced7808.gif",
+      "/img/project_25.8e2d03f4.gif"
+    ],
+    "designer": "羊羊羊",
+    "projectInfo": [
+      {
+        "title": "顶面",
+        "item": [
+          {
+            "title": "多乐士金装无添加5合1（防水）墙面漆乳胶漆",
+            "num": "2.77升",
+            "price": 26,
+            "total": 220
+          }
+        ]
+      },
+      {
+        "title": "墙面",
+        "item": [
+          {
+            "title": "TCL罗格朗美驭系列单开双控插座",
+            "num": "5个",
+            "price": 65,
+            "total": 325
+          },
+          {
+            "title": "德瑞18082PVC墙纸",
+            "num": "8张",
+            "price": 79,
+            "total": 657
+          },
+          {
+            "title": "都彩多层板门（窗）套",
+            "num": "5套",
+            "price": 45,
+            "total": 345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "02",
+    "title": "厨房",
+    "category": "4",
+    "area": "10",
+    "view": "137",
+    "favorite": "112",
+    "price": "2552",
+    "total": "43223",
+    "content": "简单别致的卫生间设计，纯白色的瓷砖代培透明玻璃，马桶上的黑白画艺术最美，小空间亦能拥有大幸福",
+    "imgUrl": [
+      "/img/project_58.ad2f0c9a.gif",
+      "/img/project_23.f0726c71.gif",
+      "/img/project_24.4ced7808.gif",
+      "/img/project_25.8e2d03f4.gif"
+    ],
+    "designer": "羊羊羊",
+    "projectInfo": [
+      {
+        "title": "顶面",
+        "item": [
+          {
+            "title": "多乐士金装无添加5合1（防水）墙面漆乳胶漆",
+            "num": "2.77升",
+            "price": 26,
+            "total": 220
+          }
+        ]
+      },
+      {
+        "title": "墙面",
+        "item": [
+          {
+            "title": "TCL罗格朗美驭系列单开双控插座",
+            "num": "5个",
+            "price": 65,
+            "total": 325
+          },
+          {
+            "title": "德瑞18082PVC墙纸",
+            "num": "8张",
+            "price": 79,
+            "total": 657
+          },
+          {
+            "title": "都彩多层板门（窗）套",
+            "num": "5套",
+            "price": 45,
+            "total": 345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "03",
+    "title": "主卧",
+    "category": "2",
+    "area": "18",
+    "view": "137",
+    "favorite": "112",
+    "price": "2552",
+    "total": "43223",
+    "content": "简单别致的卫生间设计，纯白色的瓷砖代培透明玻璃，马桶上的黑白画艺术最美，小空间亦能拥有大幸福",
+    "imgUrl": [
+      "/img/project_58.ad2f0c9a.gif",
+      "/img/project_23.f0726c71.gif",
+      "/img/project_24.4ced7808.gif",
+      "/img/project_25.8e2d03f4.gif"
+    ],
+    "designer": "羊羊羊",
+    "projectInfo": [
+      {
+        "title": "顶面",
+        "item": [
+          {
+            "title": "多乐士金装无添加5合1（防水）墙面漆乳胶漆",
+            "num": "2.77升",
+            "price": 26,
+            "total": 220
+          }
+        ]
+      },
+      {
+        "title": "墙面",
+        "item": [
+          {
+            "title": "TCL罗格朗美驭系列单开双控插座",
+            "num": "5个",
+            "price": 65,
+            "total": 325
+          },
+          {
+            "title": "德瑞18082PVC墙纸",
+            "num": "8张",
+            "price": 79,
+            "total": 657
+          },
+          {
+            "title": "都彩多层板门（窗）套",
+            "num": "5套",
+            "price": 45,
+            "total": 345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "04",
+    "title": "次卧",
+    "category": "3",
+    "area": "15",
+    "view": "137",
+    "favorite": "112",
+    "price": "2552",
+    "total": "43223",
+    "content": "简单别致的卫生间设计，纯白色的瓷砖代培透明玻璃，马桶上的黑白画艺术最美，小空间亦能拥有大幸福",
+    "imgUrl": [
+      "/img/project_58.ad2f0c9a.gif",
+      "/img/project_23.f0726c71.gif",
+      "/img/project_24.4ced7808.gif",
+      "/img/project_25.8e2d03f4.gif"
+    ],
+    "designer": "羊羊羊",
+    "projectInfo": [
+      {
+        "title": "顶面",
+        "item": [
+          {
+            "title": "多乐士金装无添加5合1（防水）墙面漆乳胶漆",
+            "num": "2.77升",
+            "price": 26,
+            "total": 220
+          }
+        ]
+      },
+      {
+        "title": "墙面",
+        "item": [
+          {
+            "title": "TCL罗格朗美驭系列单开双控插座",
+            "num": "5个",
+            "price": 65,
+            "total": 325
+          },
+          {
+            "title": "德瑞18082PVC墙纸",
+            "num": "8张",
+            "price": 79,
+            "total": 657
+          },
+          {
+            "title": "都彩多层板门（窗）套",
+            "num": "5套",
+            "price": 45,
+            "total": 345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "05",
+    "title": "卫生间",
+    "category": "5",
+    "area": "20",
+    "view": "137",
+    "favorite": "112",
+    "price": "2552",
+    "total": "43223",
+    "content": "简单别致的卫生间设计，纯白色的瓷砖代培透明玻璃，马桶上的黑白画艺术最美，小空间亦能拥有大幸福",
+    "imgUrl": [
+      "/img/project_58.ad2f0c9a.gif",
+      "/img/project_23.f0726c71.gif",
+      "/img/project_24.4ced7808.gif",
+      "/img/project_25.8e2d03f4.gif"
+    ],
+    "designer": "羊羊羊",
+    "projectInfo": [
+      {
+        "title": "顶面",
+        "item": [
+          {
+            "title": "多乐士金装无添加5合1（防水）墙面漆乳胶漆",
+            "num": "2.77升",
+            "price": 26,
+            "total": 220
+          }
+        ]
+      },
+      {
+        "title": "墙面",
+        "item": [
+          {
+            "title": "TCL罗格朗美驭系列单开双控插座",
+            "num": "5个",
+            "price": 65,
+            "total": 325
+          },
+          {
+            "title": "德瑞18082PVC墙纸",
+            "num": "8张",
+            "price": 79,
+            "total": 657
+          },
+          {
+            "title": "都彩多层板门（窗）套",
+            "num": "5套",
+            "price": 45,
+            "total": 345
+          }
+        ]
+      }
+    ]
+  }
+]
